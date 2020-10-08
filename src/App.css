@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  background: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.94)),
+    url(../src/img/bg1.jpg);
+  background-size: cover;
+  min-height: 90vh;
+  position: relative;
+}
+
+.nav-container {
+  top: 0;
+  z-index: 2;
+}
+
+nav {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome h1 {
+  position: absolute;
+  text-align: center;
+  padding-top: 300px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.welcome p {
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  padding-top: 400px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.btn {
+  position: absolute;
+  padding-top: 500px;
+}
+
+button {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.promotion {
+  background-color: lightblue;
+  margin-right: 0.5rem;
+}
+
+.learn {
+  background-color: black;
+}
+
+.landing {
+  padding: 15px;
+  background: #fff;
+  min-height: 120vh;
+}
+
+.landing h1 {
+  text-align: center;
+  margin-top: 6rem;
+  color: black;
+  font-size: 40px;
+}
+
+.sites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.sites p {
+  padding-right: 6rem;
+  text-align: center;
+}
+
+.pages {
+  display: flex;
+  text-align: center;
+  padding: 2rem;
+  margin: 0 9rem;
+}
+
+.pages h3 {
+  line-height: 50px;
+}
+
+.design {
+  display: flex;
+  justify-content: center;
+}
+
+.design img {
+  height: 20rem;
+  width: 20rem;
+}
+
+.design p {
+  line-height: 25px;
+}
+
+.text {
+  display: inline;
+  text-align: start;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-top: 30px;
+}
+
+.text h1 {
+  text-align: start;
+  margin-top: 55px;
+  margin-bottom: 10px;
+}
+.text button {
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(85, 172, 201);
+  cursor: pointer;
+}
+
+.responsive {
+  background: #fff;
+  min-height: 50vh;
+  display: flex;
+}
+
+.responsive img {
+  height: 400px;
+  width: 650px;
+}
+
+.responsive .meet {
+  text-align: start;
+  flex-direction: column;
+  background-color: rgb(85, 172, 201);
+  color: white;
+  padding: 50px;
+}
+.meet i {
+  padding-right: 10px;
+}
+
+.meet h1 {
+  font-size: 30px;
+}
+
+.meet h1,
+.meet h5 {
+  margin-bottom: 2rem;
+}
+
+.meet h5 {
+  line-height: 20px;
+}
+
+.meet p {
+  margin-bottom: 1rem;
+}
+
+.purpose {
+  background: white;
+  min-height: 50vh;
+  padding: 100px;
+  display: flex;
+}
+
+.purpose .content {
+  padding-right: 7rem;
+  margin-left: 70px;
+}
+
+.purpose h1 {
+  padding-bottom: 19px;
+  font-size: 35px;
+}
+
+.purpose p {
+  line-height: 25px;
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.purpose button {
+  background-color: rgb(85, 172, 201);
+}
